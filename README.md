@@ -30,6 +30,10 @@
 • 选择生成的图片,点击[保存]按钮
 • 图片会上传到你最后点击过单元格所在行的[保存位置]
 
+# 本地运行
+1. `npm install`
+2. `npm run dev`
+
 
 # 作者
 https://github.com/ArthusLiang
