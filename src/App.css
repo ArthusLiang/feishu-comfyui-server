@@ -1,0 +1,66 @@
+@import 'reset-css';
+
+.main {
+  padding: 1.5rem 1rem 1rem;
+}
+.main h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+.main code {
+  color: #d63384;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.button-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.button-container button {
+  margin: 0 0.5rem;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+}
+
+.loading-con {
+  display: block;
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.loading-con>div{ width: 100%;}
+
+.radio {
+  flex-direction: row;
+  width: 100%;
+}
+
+.radio label{
+  width: auto;
+}
+.radio-cards {
+  gap: 0.25rem;
+}
+
+.radio-card {
+   padding: 0;
+   margin: 0.5rem 0;
+   min-width: 200px;
+   flex: 1;
+}
+
+.radio-card-img {
+  width: 100%;
+}
+
+.step {
+  width: 100%;
+  margin: 1rem auto;
+}
