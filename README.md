@@ -6,8 +6,10 @@
 2. https://www.comfy.org/zh-cn/ 在这里获取更多comfyui的信息。
 3. 启动comfyui后，将服务器地址填去服务器配置输入框。你可以使用各种自定义的工作流。
 
-# 作者
-https://github.com/ArthusLiang
+# Example
+你可以使用example目录下的workflow.json作为工作流，但请确认服务器下载了models/checkpoints/SD1.5/DreamShaper.safetensors的模型，或者替换成你自己的模型。
+提示词节点 6
+输出节点 10
 
 # 操作步骤
 ## 填写配置文件
@@ -27,3 +29,7 @@ https://github.com/ArthusLiang
 • 点击[运行]按钮, 等待服务器生成图片
 • 选择生成的图片,点击[保存]按钮
 • 图片会上传到你最后点击过单元格所在行的[保存位置]
+
+
+# 作者
+https://github.com/ArthusLiang
